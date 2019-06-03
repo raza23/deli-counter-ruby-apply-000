@@ -14,8 +14,11 @@ def line(x)
 end
 
 def take_a_number(katz_deli)
-  #katz_deli.push(name)
-  puts "Welcome! You are number #{katz_deli.length} in line."
+#  katz_deli.push(name)
+ 
+  lin_num = 1
+  katz_deli.push(line_num)
+  puts "Welcome! You are number #{lin_num}."
 end
 
 def now_serving(array)
