@@ -13,7 +13,7 @@ def line(x)
   end
 end
 
-def take_a_number(katz_deli, name)
+def take_a_number(katz_deli)
   katz_deli.push(name)
   puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
